@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+body {
+    font-family: "Philosopher", "Noto Sans JP", sans-serif;
+    font-size: 100%;
+    box-sizing: border-box;
+    color: #432f2f;
+}
+
+/* header */
+
+header {
+    width: 70vw;
+    height: 10vh;
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+header img {
+    height: 8vh;
+    width: auto;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    list-style-type: none;
+    font-size: 1.1em;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 0.5em 1.2em;
+    display: inline-block;
+}
+
+header nav ul li a:hover {
+    color: #0bd;
+}
+
+footer {
+    background: #432f2f;
+    color: #fff;
+    text-align: center;
+    padding: 1.6em 0;
+    font-size: 0.7em;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+/* Responsive */
+
+@media ( max-width : 670px ) {
+    header {
+        width: 100vw;
+        height: 10vh;
+        margin-top: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        font-family: "Noto Sans JP", sans-serif;
+    }
+}
+
+/* index */
+
+.index {
+    background-image: url("../img/main-bg.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.index .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 76vh;
+}
+
+.index .main h2 {
+    font-size: 4em;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+    padding: 0.4em 0;
+}
+
+.index .main p {
+    padding: 0.5em 0;
+    font-size: 1.1em;
+}
+
+.index .main button {
+    background: #0bd;
+    color: #fff;
+    border-radius: 0.3em;
+    padding: 0.8em 2.4em;
+    font-size: 1em;
+    margin: 3.5em 0 0;
+}
+
+.index .main button:hover {
+    filter: brightness(90%);
+}
+
+/* index Responsive */
+
+@media ( min-width : 600px ) {
+
+}
+
+/* news */
+
+.news h1 {
+    background-image: url("../img/news-bg.jpg");
+    background-position: top 15% center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 24vh;
+    width: 100wh;
+    text-align: center;
+    font-size: 5em;
+    font-weight: normal;
+}
+
+.news .main {
+    width: 70vw;
+    margin: 0 auto;
+    display: flex;
+}
+
+.news .main article {
+    width: 54%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.news .main article img {
+    width: auto;
+    height: 20em;
+}
+
+.news .main aside {
+    background: yellowgreen;
+}
+
+/* news Responsive */
+
+@media ( max-width : 670px ) {
+}
