@@ -61,19 +61,12 @@ footer {
 @media ( max-width : 670px ) {
     header {
         width: 100vw;
-        height: 10vh;
-        margin-top: 0.5em;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
         flex-direction: column;
-        font-family: "Noto Sans JP", sans-serif;
     }
 
     header nav ul {
-        margin: 2em 0;
+        margin: 0.5em 0;
     }
-
 }
 
 /* index */
@@ -121,8 +114,27 @@ footer {
 
 /* index Responsive */
 
-@media ( min-width : 600px ) {
+@media ( max-width : 670px ) {
+    .index .main {
+        height: 68vh;
+    }
 
+    .index .main h2 {
+        letter-spacing: 0.06em;
+        font-size: 2.6em;
+        font-weight: bold;
+    }
+
+    .index .main p {
+        width: 84vw;
+        margin-left: auto;
+        margin-right: auto;
+        letter-spacing: 0.06em;
+    }
+
+    .index .main button {
+        margin: 2em 0 0;
+    }
 }
 
 /* news */
