@@ -144,13 +144,16 @@ footer {
 
 /* news */
 
-.news h1 {
+.news .bg-image {
     background-image: url("../img/news-bg.jpg");
-    background-position: top 15% center;
+    background-position: top 6% center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 24vh;
+    height: 32vh;
     width: 100wh;
+}
+
+.news h1 {
     text-align: center;
     font-size: 5em;
     font-weight: normal;
@@ -163,18 +166,98 @@ footer {
 }
 
 .news .main article {
-    width: 54%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 48%;
+    margin: 1em 10% 4em;
+}
+
+.news .main article .title {
+    margin: 1em 0;
+}
+
+.news .main article .date {
+    background: #0bd;
+    color: #fff;
+    border-radius: 50%;
+    width: 5.2em;
+    height: 5.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.05em;
+    float: left;
+    margin: 0.5em 1em 0.5em 0;
+}
+
+.news .main article .date :first-child {
+    font-size: 1.4em;
+    border-bottom: 1px solid #fff;
+}
+
+.news .main article .title h2 {
+    font-weight: normal;
+    font-family: "Sawarabi Mincho";
+    font-size: 1.8em;
+}
+
+.news .main article .title p {
+    font-size: 0.9em;
 }
 
 .news .main article img {
     width: auto;
     height: 20em;
+    margin: 0.5em 0 1.5em;
+}
+
+.news .main article p {
+    line-height: 1.8em;
+    text-align: justify;
+    text-justify: inter-ideograph;
 }
 
 .news .main aside {
-    background: yellowgreen;
+    width: 22%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+
+.news .main aside h3 {
+    font-weight: normal;
+    padding: 0.6em 0.4em;
+    border-bottom: 1.4px solid #0bd;
+    letter-spacing: 0.06em;
+}
+
+.news .main aside ul {
+    list-style-type: none;
+}
+
+.news .main aside ul li {
+    border-bottom: 1.1px solid #dcd6d2;
+}
+
+.news .main aside a {
+    text-decoration: none;
+    color: #432f2f;
+    display: inline-block;
+    padding: 0.5em 0.4em;
+}
+
+.news .main aside a:hover {
+    color: #0bd;
+}
+
+.news .main aside section:last-child {
+    margin-top: 3em;
+}
+
+.news .main aside p {
+    margin: 0.5em 0.4em;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    line-height: 1.6em;
 }
 
 /* news Responsive */
