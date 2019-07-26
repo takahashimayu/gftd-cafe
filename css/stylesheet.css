@@ -150,7 +150,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     height: 32vh;
-    width: 100wh;
+    width: 100vw;
 }
 
 .news h1 {
@@ -262,4 +262,21 @@ footer {
 /* news Responsive */
 
 @media ( max-width : 670px ) {
+    .news .bg-image {
+        background-position: top center;
+        background-size: cover;
+        width: 100vw;
+        height: 40vh;
+        position: relative;
+    }
+
+    .news h1 {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 2.8em;
+        font-weight: bold;
+        position: absolute;
+        bottom: 24%;
+    }
 }
