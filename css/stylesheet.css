@@ -92,6 +92,7 @@ footer {
     font-weight: normal;
     letter-spacing: 0.05em;
     padding: 0.4em 0;
+    text-align: center;
 }
 
 .index .main p {
@@ -120,8 +121,11 @@ footer {
     }
 
     .index .main h2 {
+        width: 84vw;
+        margin-left: auto;
+        margin-right: auto;
         letter-spacing: 0.06em;
-        font-size: 2.6em;
+        font-size: 2em;
         font-weight: bold;
     }
 
