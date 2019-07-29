@@ -293,8 +293,8 @@ footer {
     }
 
     .news .main article .date {
-        height: 4.4em;
-        width: 4.4em;
+        height: 4.6em;
+        width: 4.6em;
     }
 
     .news .main article .date :first-child {
@@ -315,8 +315,8 @@ footer {
     }
 
     .news .main aside section {
-        margin-top: 1.4em;
-        margin-bottom: 1.4em;
+        margin-top: 1.2em;
+        margin-bottom: 1.2em;
     }
 
 }
