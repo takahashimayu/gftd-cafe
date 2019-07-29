@@ -54,6 +54,7 @@ footer {
     padding: 1.6em 0;
     font-size: 0.7em;
     font-family: "Noto Sans JP", sans-serif;
+    margin-top: 4em;
 }
 
 /* Responsive */
@@ -67,10 +68,6 @@ footer {
     header nav ul {
         margin: 0.5em 0;
         font-size: 0.9em;
-    }
-
-    footer {
-        margin-top: 3em;
     }
 }
 
@@ -172,7 +169,7 @@ footer {
 
 .news .main article {
     width: 58%;
-    margin: 1.4em auto 4em 3%;
+    margin: 1.4em auto 0 3%;
 }
 
 .news .main article .title {
@@ -288,12 +285,14 @@ footer {
     }
 
     .news .main {
+        width: 100vw;
         flex-direction: column;
     }
 
     .news .main article {
-        width: 85vw;
-        margin: auto;
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .news .main article .date {
@@ -314,7 +313,7 @@ footer {
     }
 
     .news .main aside {
-        width: 85vw;
+        width: 80vw;
         margin: auto;
     }
 
