@@ -189,15 +189,12 @@ footer {
     align-items: center;
     letter-spacing: 0.05em;
     margin-right: 1em;
+    flex: none;
 }
 
 .news .main article .date :first-child {
     font-size: 1.4em;
     border-bottom: 1px solid #fff;
-}
-
-.news .main article .title {
-    width: 80%;
 }
 
 .news .main article .title .title-str h2 {
@@ -318,8 +315,8 @@ footer {
     }
 
     .news .main aside section {
-        margin-top: 2em;
-        margin-bottom: 2em;
+        margin-top: 1.4em;
+        margin-bottom: 1.4em;
     }
 
 }
