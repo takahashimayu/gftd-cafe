@@ -377,14 +377,13 @@ footer {
     .menu .bg-image h1 {
         font-size: 2.8em;
         font-weight: bold;
-        margin-top: 26vh;
+        margin-top: 18vh;
     }
 
     .menu .bg-image p {
-        width: 88vw;
-        margin: 1em auto 0;
-        letter-spacing: 0.1em;
-        line-height: 1.3em;
+        width: 84vw;
+        margin: 3em auto 0;
+        line-height: 1.4em;
         text-align: justify;
         text-justify: inter-ideograph;
     }
