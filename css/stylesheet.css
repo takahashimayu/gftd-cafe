@@ -370,12 +370,36 @@ footer {
     height: auto;
 }
 
-@media ( max-width: 670px) {
-    .container {
+/* menu Responsive */
+
+@media ( max-width: 670px ) {
+
+    .menu .bg-image h1 {
+        font-size: 2.8em;
+        font-weight: bold;
+        margin-top: 26vh;
+    }
+
+    .menu .bg-image p {
+        width: 88vw;
+        margin: 1em auto 0;
+        letter-spacing: 0.1em;
+        line-height: 1.3em;
+        text-align: justify;
+        text-justify: inter-ideograph;
+    }
+
+    .menu .main {
+        width: 88vw;
+        margin-top: 4em;
+    }
+    
+    .menu .container {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
     }
-    .box-big1 {
+
+    .menu .box-big1 {
         grid-column: 1;
         grid-row: auto;
     }
