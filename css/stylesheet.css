@@ -520,9 +520,9 @@ footer {
         width: 88vw;
     }
 
-    .contact .bg-image form input[type="text"],
-    .contact .bg-image form input[type="email"],
-    .contact .bg0image form textarea {
+    .contact dl dd input[type="text"],
+    .contact dl dd input[type="email"],
+    .contact dl dd textarea {
         width: 100%;
     }
 
