@@ -502,3 +502,52 @@ footer {
 .contact .bg-color .links .link-box h3 {
     margin-bottom: 1.4em;
 }
+
+/* contact Responsive */
+@media ( max-width: 670px ) {
+    .contact .bg-image {
+        background-position: top left;
+    }
+
+    .contact .bg-image h1 {
+        font-weight: bold;
+        width: 88vw;
+        margin: 1.4em auto 0;
+        font-size: 2.8em;
+    }
+    
+    .contact .bg-image form {
+        width: 88vw;
+    }
+
+    .contact .bg-image form input[type="text"],
+    .contact .bg-image form input[type="email"],
+    .contact .bg0image form textarea {
+        width: 100%;
+    }
+
+    .contact .bg-image form input[type="submit"] {
+        padding: 0.7em 2.0em;
+    }
+
+    .contact .access {
+        flex-direction: column;
+        width: 88vw;
+        margin: 2em auto;
+    }
+
+    .contact .access iframe {
+        margin-top: 2em;
+        width: 100%;
+        height: 250px;        
+    }
+
+    .contact .bg-color .links {
+        width: 88vw;
+        flex-direction: column;
+    }
+
+    .twitter-wrap {
+		width: 40%;
+	}
+}
