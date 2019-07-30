@@ -168,7 +168,7 @@ footer {
 
 .news .main article {
     width: 58%;
-    margin: 1.4em auto 6em 3%;
+    margin: 1.4em auto 3em 3%;
 }
 
 .news .main article .title {
@@ -219,7 +219,7 @@ footer {
 
 .news .main aside {
     width: 22%;
-    margin: 1.4em auto 6em 3%;
+    margin: 1.4em auto 3em 3%;
 }
 
 .news .main aside h3 {
@@ -349,7 +349,7 @@ footer {
 
 .menu .main {
     width: 70vw;
-    margin: 6em auto;
+    margin: 6em auto 3em;
 }
 
 .menu .container {
