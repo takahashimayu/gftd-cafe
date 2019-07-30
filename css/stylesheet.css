@@ -509,6 +509,7 @@ footer {
 @media ( max-width: 670px ) {
     .contact .bg-image {
         background-position: top left;
+        height: 40em;
     }
 
     .contact .bg-image h1 {
