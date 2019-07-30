@@ -287,8 +287,7 @@ footer {
 
     .news .main article {
         width: 88vw;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 1em auto;
     }
 
     .news .main article .date {
@@ -310,7 +309,7 @@ footer {
 
     .news .main aside {
         width: 88vw;
-        margin: auto;
+        margin: 0 auto 3em;
     }
 
     .news .main aside section {
@@ -318,6 +317,9 @@ footer {
         margin-bottom: 1.2em;
     }
 
+    .news .main aside section:last-child {
+        margin-top: 2em;
+    }
 }
 
 /* menu */
